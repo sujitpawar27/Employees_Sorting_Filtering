@@ -1,0 +1,76 @@
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    min-height: 400px; /* Adjust this value based on your needs */
+      
+  }
+  
+  table {
+    width: 92%;
+    border: 1px solid #b2b2b2; 
+    border-radius: 20px; 
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  th, td {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+
+  td{
+    font-size: 91%;
+    color: #656565;
+  }
+
+  th {
+    font-weight:644 ;
+    cursor: pointer;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  div.filter-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+   }
+  
+  .filter-container .span1 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-right: 10px;
+  }
+  
+  .filter-container select {
+    height: 30px;
+    width: 110px;
+    border-color: grey;
+    border-radius: 6px;
+    margin-left: 5px;
+    padding: 5px;
+  }
+  
+ .header-with-icon {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header-with-icon svg {
+    width: 9px;
+    height: 21px;
+    color:#777777;
+}
